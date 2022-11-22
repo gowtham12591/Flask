@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Html Loops </title>
+    </head>
+    <body>
+        <h1>Loops</h1>
+        {% for i in range(10) %}
+            {% if i %2 == 0 %}
+                <p> {{i}}</p>
+            {% endif %}
+        {% endfor %}
+        <h1>More Loops</h1>
+        {% for j in contents %}
+            {% if j == 5 %}
+                <p> {{j}}</p>
+            {% endif %}
+        {% endfor %}
+
+    </body>
+</html>
